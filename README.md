@@ -3,31 +3,31 @@
 A stupid simple tool to clear out a CouchDB database.
 
 
-### Dependencies
+## Dependencies
 
 [node.js](http://nodejs.org/)
 
 
-### Install
+## Install
     $ git clone https://github.com/snbartell/couch-purge.git
     $ npm i -g
 
 
-### Features
+## Features
 
 - Delete and recreate couchdb database.
 - Ensure survival of security and design documents.
 
 
-### Usage
+## Usage
 
 
-### Example
+## Example
 
-#### single db
+### single db
     $ couch-purge localhost:5984 test
 
-#### several dbs
+### several dbs
     $ couch-purge localhost:5984 test1,test2,test3
     
 
